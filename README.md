@@ -10,7 +10,7 @@ This vanilla Javascript library allows you to parse information from x.509 certi
   "localityName-X520": "Helsinki",
   "organizationName-X520": "Aalto University",
   "organizationalUnitName-X520": "Smartcom",
-  "commonName-X520": "JaanTaponen",
+  "commonName-X509": "JaanTaponen",
   "emailAddress-PKCS": "jaan.taponen@aalto.fi",
   "UTCTime": "2021-04-17 12:11:39 UTC",
 }
