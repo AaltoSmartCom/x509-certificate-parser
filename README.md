@@ -5,11 +5,11 @@ This vanilla Javascript library allows you to parse information from x.509 certi
 ```json
 {
   "encryptionAlgo": "sha256WithRSAEncryption-PKCS",
-  "countryName-X520": "FI",
-  "stateOrProvinceName-X520": "Uusimaa",
-  "localityName-X520": "Helsinki",
-  "organizationName-X520": "Aalto University",
-  "organizationalUnitName-X520": "Smartcom",
+  "countryName-X509": "FI",
+  "stateOrProvinceName-X509": "Uusimaa",
+  "localityName-X509": "Helsinki",
+  "organizationName-X509": "Aalto University",
+  "organizationalUnitName-X509": "Smartcom",
   "commonName-X509": "JaanTaponen",
   "emailAddress-PKCS": "jaan.taponen@aalto.fi",
   "UTCTime": "2021-04-17 12:11:39 UTC",

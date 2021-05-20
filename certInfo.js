@@ -69,13 +69,13 @@ function decodeCert(cert) {
       }
     } else if (String(listDump[i]).startsWith("sha")) {
       var dict = {};
-      var ebin = "encryptionAlgo"
-      dict[ebin] = listDump[i]
+      var tmp = "encryptionAlgo"
+      dict[tmp] = listDump[i]
       listE.push(dict)
     }
   }
 
-  //Move list one dimension up so we get the object structure benefits.
+  // Move list one dimension up so we get the object structure benefits.
   var result = {};
   for (var i = 0; i < listE.length; i++) {
     result[Object.keys(listE[i])[0]] = listE[i][Object.keys(listE[i])[0]];
